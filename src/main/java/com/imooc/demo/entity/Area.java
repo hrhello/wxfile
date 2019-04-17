@@ -59,4 +59,14 @@ public class Area {
 		this.lastEditTime = lastEditTime;
 	}
 
+	@Override
+	public String toString() {
+		return "Area{" +
+				"areaId=" + areaId +
+				", areaName='" + areaName + '\'' +
+				", priority=" + priority +
+				", createTime=" + createTime +
+				", lastEditTime=" + lastEditTime +
+				'}';
+	}
 }

@@ -48,8 +48,9 @@ public class AreaDaoTest {
 
 	@Test
 	public void testCQueryAreaById() {
-		Area area = areaDao.queryAreaById(2);
-		assertEquals("东苑", area.getAreaName());
+		Area area = areaDao.queryAreaById(9);
+		assertEquals("北苑", area.getAreaName());
+		System.out.println(area.toString());
 	}
 
 	@Test
